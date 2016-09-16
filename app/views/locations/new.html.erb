@@ -1,0 +1,6 @@
+<%= form_for @location do |f| %>
+	<%= f.text_field :street_address, placeholder: 'street address' %><br />
+	<%= f.text_field :city, placeholder: 'city' %><br />
+	<%= f.text_field :state, placeholder: 'state' %><br />
+	<%= f.submit "submit" %>
+<% end %>
